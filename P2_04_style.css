@@ -1,0 +1,69 @@
+footer.footer.footer-black {
+  background: black;
+}
+
+.page-header .container,
+.page-header .author,
+.page-header .author a,
+.page-header .hestia-title,
+.page-header .title,
+.page-header .description {
+  color: lavender;
+	font-family: sans-serif !important;
+}
+
+.entry-social a {
+    display:none;
+}
+
+.entry-categories{
+	display:none;
+}
+
+h4.author{
+	display:none;
+}
+
+.es-listing .es-property-inner .es-property-info h2 a {
+	text-decoration:none !important;
+	text-transform: capitalize !important;
+}
+
+.es-single .es-info .es-property-fields {
+	display:block !important
+}
+
+.es-property-excerpt> p {
+	font-size: 16px !important;
+}
+
+span.select2 {
+	width:200px !important;
+}
+
+span.select2-selection__rendered{
+	font-size:18px !important;
+}
+
+@media only screen and (max-width: 600px) {
+span.select2 {
+	width:100% !important;
+}
+
+span.select2-selection__rendered{
+	font-size:18px !important;
+}
+
+.select2-container .select2-selection--single{
+	height:40px !important;
+}
+	
+.select2-selection__rendered{
+	margin-top:5px;
+}
+
+.select2-selection__arrow{
+	margin-top:5px;
+}
+
+}
